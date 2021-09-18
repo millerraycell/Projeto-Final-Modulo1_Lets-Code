@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: Rambla;
+}
+
+html, body{
+    margin-bottom: 35rem;
+    height: 100vh;
+
+    background: #F3F2EE;
+}
+
+.page-header{
+    display: flex;
+    flex-direction: row;
+
+    background-color: white;
+}
+
+.page-header .container{ 
+    width: 100rem;
+    
+    margin-left: 2rem;
+    padding: 1.6rem 0;
+    
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.page-header .container .search-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-left: 2rem;
+
+    background: #EEF3F7;
+
+    border-radius: 8px;
+}
+
+.page-header .container .search-bar i {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.page-header .container .search-bar input{
+    width: 20rem;
+    height: 2.4rem;
+    
+    background: #EEF3F7;
+    
+    border: none;
+    border-radius: 8px;
+
+    transition: 0.2s;
+}
+
+.page-header .container .search-bar input:focus{
+    width: 24rem;
+}
+
+.page-header .container .logo{
+    height: 3rem;
+}
+
+.page-header .container .icon, .page-header .third .icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    color: rgb(0,0,0,0.6);
+
+    transition: 0s;
+}
+
+.page-header .container .icon:hover, .page-header .third .icon:hover{
+   color: black;
+}
+
+.page-header .container .icon + .icon{
+    margin-left: 2rem;
+}
+
+
+.page-header .third{
+    width: 80%;
+
+    margin-right: 2rem;
+    padding: 1.6rem 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.page-header .third .user-icon {
+    height: 2rem;
+    border-radius: 1rem;
+}
+
+main{
+    width: 100%;
+    max-width: 74rem;
+    margin: 0 auto 3.2rem;
+    padding-top: 6.4rem;
+    overflow: hidden;
+}
+
+main .banner{
+    background-color: white;
+
+    border-radius: 8px;
+
+    height: 30rem;
+}
+
+main .banner .img-banner{
+    width: 74rem;
+    height: 20rem;
+
+    margin-top: -3.2rem;
+}
+
+main .banner .about-pic{
+    position: relative;
+    float: left;
+
+    margin-top: -8rem;
+    margin-left: 2rem;
+
+    width: 11rem;
+
+    border-radius: 100%;
+}
+
+main .banner .about-text{
+    margin-top: 4rem;
+    margin-left: 2rem;
+}
+
+main .banner .about-text strong{    
+    font-size: 2rem;
+}
+
+main .banner .about-text p{
+    font-size: small;
+    color: grey;
+}
+
+main .banner .buttons{
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+main .banner .buttons button{
+    border-radius: 0.8rem;
+    height: 1.8rem;
+
+    font-size: medium;
+
+    border-color: grey;
+    border-width: 1px;
+}
+
+main .banner .buttons .special{
+    background-color: #0B65C2;
+    
+    color: white;
+    font-weight: 700;
+
+    width: 11rem;
+
+    border: none;
+
+    transition: 0.2s;
+}
+
+main .banner .buttons .special:hover{
+    background-color: #004182;
+}
+
+main .banner .buttons .common-1{
+    width: 9rem;
+
+    color: grey;
+
+    background-color: white;
+
+    transition: 0.1s;
+}
+
+main .banner .buttons .common-1:hover{
+    background-color: rgb(0, 0, 0, 0.08);
+
+    box-shadow: inset 0 0 0 1px rgb(0, 0, 0, 0.6);
+
+    border-width: 2px;
+}
+
+main .banner .buttons .common-2{
+    width: 4rem;
+    
+    color: grey;
+
+    background-color: white;
+
+    transition: 0.1s;
+}
+
+main .banner .buttons .common-2:hover{
+    background-color: rgb(0, 0, 0, 0.08);
+
+    box-shadow: inset 0 0 0 1px rgb(0, 0, 0, 0.6);
+
+    border-width: 2px;
+}
+
+main .banner .buttons button + button{
+    margin-left: 0.5rem;
+}
+
+main .infos{
+    margin-top: 3rem;
+
+    background-color: white;
+
+    border-radius: 1rem;
+    
+    overflow: hidden;
+
+}
+
+main .infos .desc1 {
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+main .infos .desc1 .title{
+    font-size: x-large;
+}
+
+main .infos .desc1 .box {
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+
+    display: flex;
+    align-items: flex-start;
+
+}
+
+main .infos .desc1 .box .logo{
+    width: 4rem;
+}
+
+main .infos .desc1 .box .text-desc{
+    width: 100%;
+
+    margin-left: 2.5rem;
+}
+
+hr{
+    border: 1px solid #EBEBEB;
+}
+
+main .infos .desc1 .box .text-desc .date{
+    color: #666666;
+}
+
+main .infos .desc1 .box .text-desc .place{
+    margin-bottom: 2.5rem;
+    
+    color: #666666;
+}
